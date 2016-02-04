@@ -1,0 +1,105 @@
+﻿/* style page body */
+body {
+  background-image: url('https://furstgroup.com/wp-content/uploads/2012/12/Horizon-2.jpg'); /* add background image to page */
+  background-size: 100%;    /* make background-image 100% to fit page */
+  background-attachment: fixed;    /* make background image fixed for scrolling effect */
+  color: black;           /* set page text color to black */
+  font-family: Sans-serif, Monospace;   /* text font type */
+  font-size: 16px;      /* text font size */
+}
+
+/* style h1 heading */
+h1 {
+  font-size: 80px;      /* set text size to 80px */
+  font-family: Sans-serif;  /* text font type */
+  font-weight: bold;    /* make text bold */
+  color: yellow;    /* set color of text to yellow */
+  padding: 15px;    /* set padding 15px all around h1 text */
+  margin-bottom: 30px;  /* set bottom margin */
+}
+
+/* style h2 heading */
+h2 {
+  font-size: 50px;  /* text font size */
+  font-weight: bold;    /* make h2 text bold */
+  color: black;     /* set text color to black */
+  padding-bottom: 20px;     /* set padding to bottom of text */
+}
+
+/* style paragraph */
+p {
+  font-size: 22px;  /* sent font size of paragraphs */
+}
+
+/* style paragraph2 class*/
+.p2 {
+  color: #eee;      /* set text color */
+  font-size: 18px;      /* set font size */
+  text-align: center;   /* center align text*/
+}
+
+/* style navbar class */
+.navbar {
+  background-color: #222;   /* set background color of navbar */
+  border: 2px solid #666;   /* set border size, type and color */
+  padding: 2px;             /* set padding around navbar text */
+}
+
+/* style circlePic class */
+.circlePic {
+  border: 3px solid yellow;     /* set border size, type and color */
+  border-radius: 60px;      /* make border circular by rounding edges*/
+  width: 130px;     /* set width of circle */
+  height: 125px;    /* set height of circle */
+  margin-left: auto;    /* set margin-left and margin-right to auto to center circle */
+  margin-right: auto;
+  margin-bottom: 30px;  /* set bottom margin */
+}
+
+/* style pic */
+#pic {
+  border-radius: 55px;  /* make image circular */
+}
+
+/* style home section of page */
+#home {
+  padding: 60px 0 40px 0;   /* set padding top, right, bottom, left around home text */
+}
+
+/* style about section */
+#about {
+ background-image: url('http://wallpapersdesk.net/wp-content/uploads/2015/03/3972_white_abstract.jpg');     /* add background image for about section */
+  background-size: 100%;    /* set image size to fit section */
+  background-attachment: fixed;     /* make image fixed for scrolling effect */
+  padding: 40px 10px 20px 10px;     /* set padding top, right, bottom, left around about text */
+}
+
+/* style portfolio section */
+#portfolio {
+  background-image: url('http://img.freepik.com/free-vector/white-abstract-background_1053-126.jpg?size=338c&ext=jpg'); /* set background image for section */
+  background-size: 100%;    /* set image size to fit section */
+  background-attachment: fixed;     /* make image fixed for scrolling effect */
+  padding: 40px 10px 20px 10px;     /* set padding top, right, bottom, left around portfolio text */
+}
+
+/* style contact section */
+#contact {
+  background-image: url('http://thelaneorg.com/wp-content/uploads/2014/05/bigstock-Abstract-White-Digital-D-Chao-75094717.jpg');    /* set background image for section */
+  background-size: 100%;    /* set image size to fit section */
+  background-attachment: fixed;     /* make image fixed for scrolling effect */
+  padding: 40px 10px 20px 10px;     /* set padding top, right, bottom, left around contact text */  
+  text-align: center;   /* center align text */
+}
+
+/* style thumbnail class */
+.thumbnail {
+  background-color: #333;   /* set background-color of thumbnail */
+}
+
+/* style footer class */
+.footer {
+  background-color: #333;   /* set background-color of footer */
+  text-align: center;   /* center align footer text */
+  color: white;     /* set color of footer text to white */
+  padding: 10px;    /* set padding around footer text */  
+}
