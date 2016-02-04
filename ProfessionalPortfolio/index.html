@@ -4,6 +4,7 @@
 <!-- App: Portfolio Webpage -->
 <!-- Date: February 4, 2016 -->
 <!-- Description: A professional portfolio webpage using HTML, CSS, Bootstrap and JavaScript -->
+<!-- Version 2 -->
 <head>
     <title>Portfolio</title>
 
@@ -18,9 +19,11 @@
 </head>
 <body>
     <!-- Bootstrap navbar component -->
-    <nav class="navbar navbar-fixed-top"><!-- position and fix navbar at top of page -->
-        <div class="container-fluid"><!-- container adjusts based on screen size -->
-            <div class="navbar-header">
+    <nav class="navbar navbar-fixed-top">
+        <!-- position and fix navbar at top of page -->
+        <div class="container-fluid">
+            <!-- container adjusts based on screen size -->
+            <div class="navbar-header navbar-inverse">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -32,7 +35,8 @@
 
             <!-- Collect the nav links for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right"><!-- align unordered list links to the right of navbar -->
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- align unordered list links to the right of navbar -->
                     <li><a href="#home">Home</a></li><!-- home section of page -->
                     <li><a href="#about">About</a></li><!-- about section -->
                     <li><a href="#portfolio">Portfolio</a></li><!-- portfolio section -->
@@ -43,11 +47,13 @@
     </nav>
 
     <!-- Container to hold page information -->
-    <div class="container-fluid"><!-- container adjusts to screen size -->
+    <div class="container-fluid">
+        <!-- container adjusts to screen size -->
         <!-- Home section -->
-        <div class="row text-center" id="home">            
+        <div class="row text-center" id="home">
             <h1>Teleisha Hall</h1>
-            <div class="circlePic text-center"><!-- circlePic class with CSS border to hold image -->
+            <div class="circlePic text-center">
+                <!-- circlePic class with CSS border to hold image -->
                 <img id="pic" src="https://lh3.googleusercontent.com/-I8A-LWTBqcs/AAAAAAAAAAI/AAAAAAAAAdc/yoo-2RgijNw/s120-c/photo.jpg" />
             </div><!-- /.circlePic -->
             <!-- Class to store social media image links -->
@@ -59,10 +65,10 @@
                 <a href="http://www.freecodecamp.com/hallnt" id="fcc" target="_blank"><img src="https://s3.amazonaws.com/freecodecamp/logo4.0LG.png" width=250 height=50 /></a>
             </div><!-- /.socialMedia -->
         </div><!-- /#home -->
-
         <!-- About section -->
         <div class="row" id="about">
-            <div class="col-sm-12 center block"><!-- column size -->
+            <div class="col-sm-12 center block">
+                <!-- column size -->
                 <h2>About Me</h2>
                 <p>
                     I am an aspiring software developer and I am interested in working for a company that makes a difference in society.
@@ -77,11 +83,10 @@
                 </p>
             </div><!-- /.col-sm-12 -->
         </div><!-- #about -->
-
         <!-- Portfolio section -->
         <div class="row" id="portfolio">
             <h2>Portfolio</h2>
-            <p style="background-color:#cac0c0; color:blue"><b>Click on the following projects below to view:</b></p>
+            <p><b>Click on the projects below to view:</b></p>
             <div class="col-sm-4">
                 <a href="http://codepen.io/hallnt/full/MKVONp/" class="thumbnail" target="_blank">
                     <img src="https://lh5.googleusercontent.com/-w3MXrA7CFnc/VqoBoDdFpiI/AAAAAAAADJw/_QXz6zNTqx0/w847-h345-no/random_quotes.PNG" alt="Random Quotes" style="width:350px; height:230px" />
@@ -114,20 +119,17 @@
                 </a>
             </div><!-- /.col-sm-4 -->
         </div><!-- /#portfolio -->
-
         <!-- Contact section -->
         <div class="row" id="contact">
-            <p>
-                Email me at: nickyb63@hotmail.com<br>
-                OR<br>sugahall@gmail.com
-            </p>
+            <p>Email me at: nickyb63@hotmail.com <br> or <br>sugahall@gmail.com</p>
         </div><!-- /#contact -->
     </div><!-- /.container-fluid -->
-
     <!-- Footer section -->
     <div class="footer">
         Copyright © Teleisha Hall 2016.
     </div><!-- /.footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
