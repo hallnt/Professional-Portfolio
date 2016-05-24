@@ -3,6 +3,7 @@ body {
   background-image: url('https://furstgroup.com/wp-content/uploads/2012/12/Horizon-2.jpg'); /* add background image to page */
   background-size: 100%;    /* make background-image 100% to fit page */
   background-attachment: fixed;    /* make background image fixed for scrolling effect */
+  background-repeat: no-repeat;    /* do not repeat background */
   color: black;           /* set page text color to black */
   font-family: Sans-serif, Monospace;   /* text font type */
   font-size: 16px;      /* text font size */
@@ -36,6 +37,7 @@ p {
   color: #eee;      /* set text color */
   font-size: 18px;      /* set font size */
   text-align: center;   /* center align text*/
+  padding-top: 8px;
 }
 
 /* style navbar class */
@@ -68,7 +70,7 @@ p {
 
 /* style about section */
 #about {
- background-image: url('http://wallpapersdesk.net/wp-content/uploads/2015/03/3972_white_abstract.jpg');     /* add background image for about section */
+ background-image: url('http://thelaneorg.com/wp-content/uploads/2014/05/bigstock-Abstract-White-Digital-D-Chao-75094717.jpg');     /* add background image for about section */
   background-size: 100%;    /* set image size to fit section */
   background-attachment: fixed;     /* make image fixed for scrolling effect */
   padding: 40px 10px 20px 10px;     /* set padding top, right, bottom, left around about text */
@@ -99,7 +101,6 @@ p {
 /* style footer class */
 .footer {
   background-color: #333;   /* set background-color of footer */
-  text-align: center;   /* center align footer text */
   color: white;     /* set color of footer text to white */
   padding: 10px;    /* set padding around footer text */  
 }
